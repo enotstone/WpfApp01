@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp01"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="450" Width="300">
+    <Grid Background="#FF89CFFF">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="44*"/>
+            <ColumnDefinition Width="29*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock  Margin="12,10,10,301" FontSize="36" FontWeight="Bold" Grid.ColumnSpan="2" Background="White" />
+        <Button Padding="0,0,0,0" Content="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Width="60" Margin="12,140,104.314,219" FontWeight="Bold"/>
+        <Button Content="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Width="60" Margin="77,140,39.314,219" FontWeight="Bold"/>
+        <Button Content="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Width="60" Margin="142,140,90,219" RenderTransformOrigin="1.707,0.535" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <Button Content="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Width="60" Margin="12,205,104.314,154" FontWeight="Bold"/>
+        <Button Content="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Width="60" Margin="77,205,39.314,154" FontWeight="Bold"/>
+        <Button Content="6" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Width="60" Margin="142,205,90,154" RenderTransformOrigin="1.707,0.535" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <Button Content="7" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Width="60" Margin="12,270,104.314,89" FontWeight="Bold"/>
+        <Button Content="8" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Width="60" Margin="77,270,39.314,89" FontWeight="Bold"/>
+        <Button Content="9" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Width="60" Margin="142,270,90,89" RenderTransformOrigin="1.707,0.535" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <Button Content="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Margin="77,335,90,24" RenderTransformOrigin="1.707,0.535" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <Button Content="," HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Height="60" Width="60" Margin="12,335,104.314,24" FontWeight="Bold"/>
+        <Button Content="+" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Width="60" Margin="45.686,140,10,219" FontWeight="Bold" Grid.Column="1"/>
+        <Button Content="-" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Width="60" Margin="45.686,205,10,154" FontWeight="Bold" Grid.Column="1"/>
+        <Button Content="*" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Width="60" Margin="45.686,270,10,89" FontWeight="Bold" Grid.Column="1"/>
+        <Button Content="/" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" Width="60" Margin="45.686,335,10,24" FontWeight="Bold" Grid.Column="1"/>
     </Grid>
 </Window>
